@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>EJEMPLO CORREO</title>
+    </head>
+    <body>
+        <form action="mailto:steisycrisostomo@gmail.com">
+            <div>
+                <label for="nombre">E-mail</label>
+                <input 
+                    type="text" 
+                    name="email" 
+                    id="email"
+                    title="Ingrese destinatario"
+                    placeholder="Ingrese su nombre"
+                >
+            </div>
+            <div>
+                <label for="cc">CC</label>
+                <input 
+                    type="text" 
+                    name="cc" 
+                    id="cc"
+                    title="Copiar A"
+                    placeholder="Copia A"
+                >
+            </div>
+            <div>
+                <label for="bcc">BCC</label>
+                <input 
+                    type="text" 
+                    name="bcc" 
+                    id="bcc"
+                    title="Copia Oculta A"
+                    placeholder="Copia Oculta A"
+                >
+            </div>
+            <div>
+                <label for="subject">Subject</label>
+                <input 
+                    type="text" 
+                    name="subject" 
+                    id="subject"
+                    title="el email"
+                    placeholder="Ingrese el titulo"
+                >
+            </div>
+            <div>
+                <label for="nombre">Mensaje</label>
+                <textarea
+                    name="body"
+                    id="body"
+                    rows="10"
+                ></textarea>
+            </div>
+            <div>
+                <input type="submit" value="enviar correo">
+            </div>
+        </form>
+    </body>
+</html>
