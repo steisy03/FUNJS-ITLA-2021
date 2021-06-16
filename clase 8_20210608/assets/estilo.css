@@ -8,6 +8,10 @@ body {
     margin: 0;
 }
 
+ul {
+    min-width: 100%;
+}
+
 ul, li {
     list-style: none;
     padding: 0;
