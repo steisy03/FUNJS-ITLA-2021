@@ -1,5 +1,3 @@
-// var diametro = prompt("Digite el diametro").replace(/ /g, "");
-// var grosor = prompt("Digite el grosor").replace(/ /g, "");
 const boton = document.getElementById("enviar");
 const diametro = document.getElementById("diametro");
 const grosor = document.getElementById("grosor");

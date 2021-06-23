@@ -4,22 +4,49 @@ html {
     font-family: 'Roboto', sans-serif;
 }
 
+label {
+    display: block;
+    margin: 0 0 10px;
+    font-size: 12px;
+    line-height: 1;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+}
+
+input {
+    outline: none;
+    display: block;
+    width: 100%;
+    border: 0;
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding: 12px 20px;
+    background-color: #D2CDCC;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    transition: 0.3s ease;
+  }
+
+  button {
+    outline: none;
+    width: 100%;
+    border: 0;
+    border-radius: 4px;
+    padding: 12px 20px;
+    color: white;
+    background-color:#199FB1;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+
 body {
     margin: 0;
 }
 
-ul {
-    min-width: 100%;
-}
-
-ul, li {
-    list-style: none;
-    padding: 0;
-    margin-left: 0;
-    margin-right: 0;
-    margin-top: .5rem;
-    margin-bottom: .5rem;
-}
 /* Fin estructura */
 
 /* flex */
@@ -53,12 +80,6 @@ ul, li {
     margin: 1rem 0;
 }
 
-.contenedor {
-    background-color: #199FB1;
-    width: 10rem;
-    height: 10rem;
-}
-
 .seccion_dos{
     width: 50%;
     padding-top: 3.5rem;
@@ -69,4 +90,10 @@ ul, li {
 
 .caja {
     margin: 1rem 0;
+}
+
+.contenedor {
+    background-color: #199FB1;
+    width: 10rem;
+    height: 10rem;
 }

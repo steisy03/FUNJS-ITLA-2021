@@ -4,6 +4,45 @@ html {
     font-family: 'Roboto', sans-serif;
 }
 
+label {
+    display: block;
+    margin: 0 0 10px;
+    font-size: 12px;
+    line-height: 1;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+}
+
+input {
+    outline: none;
+    display: block;
+    width: 100%;
+    border: 0;
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding: 12px 20px;
+    background-color: #D2CDCC;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    transition: 0.3s ease;
+  }
+
+  button {
+    outline: none;
+    width: 100%;
+    border: 0;
+    border-radius: 4px;
+    padding: 12px 20px;
+    color: white;
+    background-color:#199FB1;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+
 body {
     margin: 0;
 }
